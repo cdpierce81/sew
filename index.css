@@ -1,0 +1,88 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	background: white; /*#f08080;*/ /* black; */
+	/*background: url("https://image.shutterstock.com/z/stock-photo-composition-with-threads-and-sewing-accessories-on-white-background-727906282.jpg"); /*radial-gradient(silver /* #f08080 *//* 20%, transparent 0), radial-gradient(silver 20%, transparent 0);*/
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover; /*30px 30px;*/
+	background-position: center; /*0, 0, 15px, 15px;*/
+}
+
+header {
+	background: black;
+	padding: 25px;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Great Vibes', cursive;
+	font-size: 50px;
+	color: #f08080;
+	text-shadow: -5px 5px silver;
+}
+
+div.picture {
+	padding: 10px 10px 70px 10px;
+	border: 1px solid #BFBFBF;
+	box-shadow: 10px 10px 5px #aaaaaa;
+	background-color: white;
+}
+
+.left {
+	float: left;
+	-ms-transform: rotate(25deg); /* IE 9 */
+	-webkit-transform: rotate(25deg); /* Safari */
+	transform: rotate(25deg);
+}
+
+.center {
+	float: left;
+	-ms-transform: rotate(-20deg); /* IE 9 */
+	-webkit-transform: rotate(-20deg); /* Safari */
+	transform: rotate(-20deg);
+}
+
+.right {
+	float: left;
+	-ms-transform: rotate(45deg); /* IE 9 */
+	-webkit-transform: rotate(45deg); /* Safari */
+	transform: rotate(45deg);
+}
+
+.end {
+	float: left;
+	-ms-transform: rotate(-5deg); /* IE 9 */
+	-webkit-transform: rotate(-5deg); /* Safari */
+	transform: rotate(-5deg);	
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.contact {
+	padding: 100px;
+	text-align: center;
+}
+
+.contact a {
+	line-height: 1.8;
+}
+
+footer {
+	background-color: #f08080;
+	margin: 0;
+	padding: 5px;
+	color: white;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
